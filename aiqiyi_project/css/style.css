@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrap .header {
+  width: 100%;
+  height: 300px;
+  background: red;
+  display: flex;
+  flex-direction: column;
+}
+.wrap .header .header_list {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  font-size: 50px;
+}
+.wrap .header .header_list ul {
+  width: 95%;
+  height: 150px;
+  display: flex;
+}
+.wrap .header .header_list ul li {
+  width: 18%;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+}
+.wrap .header .header_list span {
+  display: inline-block;
+  width: 5%;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+}
+.wrap .header .header_input {
+  width: 100%;
+  height: 150px;
+  display: flex;
+}
+.wrap .header .header_input span {
+  display: inline-block;
+}
+.wrap .header .header_input span:nth-child(1) {
+  width: 70%;
+  height: 150px;
+  margin-left: 10px;
+}
+.wrap .header .header_input span:nth-child(1) input {
+  width: 95%;
+  height: 120px;
+  border: none;
+  border-radius: 30px;
+  background: #ccc;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.wrap .header .header_input span:nth-child(1) input::-webkit-input-placeholder {
+  font-size: 50px;
+  text-align: center;
+}
+.wrap .header .header_input span:nth-child(2) {
+  width: 30%;
+  height: 150px;
+}
+.wrap .header .header_input span:nth-child(2) img {
+  width: 30%;
+  height: 110px;
+}
+.wrap .section {
+  flex: 1;
+  overflow-x: hidden;
+}
+.wrap .section .lpt {
+  width: 100%;
+  height: 500px;
+}
+.wrap .section .lpt .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.wrap .section .lpt .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.wrap .section .lpt .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.wrap .section .lpt .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.wrap .footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.wrap .footer dl {
+  width: 20%;
+  height: 200px;
+}
+.wrap .footer dl dt {
+  width: 70%;
+  height: 100px;
+  margin-left: 20%;
+}
+.wrap .footer dl dt img {
+  width: 100%;
+  height: 100%;
+}
+.wrap .footer dl dd {
+  text-align: center;
+  font-size: 40px;
+}
